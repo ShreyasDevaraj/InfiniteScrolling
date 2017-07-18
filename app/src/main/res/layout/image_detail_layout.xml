@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <it.sephiroth.android.library.imagezoom.ImageViewTouch xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/Theme.Lightbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lightboxView"
+        android:background="@android:color/white"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/downloadButton"
+        android:text="@string/download"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:drawableStart="@drawable/download"
+        android:layout_marginStart="38dp"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/openInFlickerButton"
+        android:text="@string/openInApp"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:drawableStart="@drawable/open_in_flickr"
+        android:background="@android:color/transparent"
+        android:layout_marginEnd="37dp"
+        android:layout_alignBaseline="@+id/downloadButton"
+        android:layout_alignBottom="@+id/downloadButton"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/imageDetailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/imageDetail"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_above="@+id/downloadButton"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/shark_feed_logo"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="190dp"
+        android:src="@drawable/shark_feed_title"/>
+
+    <View android:id="@+id/separator"
+        android:background="#ffffff"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"
+
+        />
+
+    <Button
+        android:id="@+id/getResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:text="@string/swipe"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:background="@android:color/transparent"
+        android:drawableEnd="@drawable/swipe_to_feed"
+        android:drawablePadding="2dp"
+        android:paddingEnd="25dp"
+        android:paddingStart="25dp"
+        android:textSize="15sp" />
+</LinearLayout>

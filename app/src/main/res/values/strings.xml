@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SharkApp</string>
+    <string name="download">Download</string>
+    <string name="openInApp">Open in App</string>
+    <string name="imageDetail">ImageDetail</string>
+    <string name="swipe">Swipe here to start feeding</string>
+</resources>
